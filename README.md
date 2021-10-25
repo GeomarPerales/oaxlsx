@@ -1,6 +1,6 @@
 # oaxlsx
 
-The goal of oaxlsx is read, sort and convert a data file downloaded from ANA in dataframe
+The goal of oaxlsx is read, sort and convert a data file downloaded from ANA in dataframe.
 
 ## Installation
 
@@ -17,6 +17,9 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(oaxlsx)
-## basic example code
+file.ana <- "SerieTiempo29092021213903.xlsx"
+
+data.ana <- oaxlsx(file.ana)
+View(data.ana)
 ```
 
