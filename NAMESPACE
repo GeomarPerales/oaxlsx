@@ -2,3 +2,4 @@
 
 export(oaxlsx)
 import(openxlsx)
+importFrom(openxlsx,read.xlsx)
