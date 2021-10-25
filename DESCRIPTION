@@ -1,0 +1,14 @@
+Package: oaxlsx
+Type: Package
+Title: reader for data file downloaded from ANA
+Version: 0.1.0
+Author: Geomar Perales Apaico
+Maintainer: Geomar Perales Apaico <perales.geomar@gmail.com>
+Description: package for reading, sorting and convert a data file downloaded from ANA in dataframe.
+License: GPL
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Imports: openxlsx
+NeedsCompilation: no
+Packaged: 2021-10-25 03:59:09 UTC; LENOVO
