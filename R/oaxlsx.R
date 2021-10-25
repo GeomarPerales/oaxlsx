@@ -3,6 +3,7 @@
 #' function for reading, sorting and convert a data file downloaded from ANA in dataframe.
 #' @param x a file (xlsx) downloaded from ANA (Peru)
 #'
+#' @importFrom openxlsx read.xlsx
 #' @import openxlsx
 #'
 #' @export
