@@ -14,7 +14,7 @@
 
 oaxlsx <- function(x) {
   file.xlsx <- x
-  data <- read.xlsx( file.xlsx, sheet = paste0("Reporte ","N",intToUtf8(176)," 1"))
+  data <- read.xlsx( file.xlsx, sheet = "Reporte")
 
   ll <- length(unlist(strsplit(names(data)[1],"[.]")))
   nl <-  nchar(unlist(strsplit(names(data)[1],"[.]"))[ll])
